@@ -5,7 +5,10 @@ func main() {
 
 	// hand, remainingCards := cards.deal(5)
 
-	cards.saveToFile("My cards!")
+	// cards.saveToFile("my_cards")
 
-	
+	// newDeckFromFile("my_cards").print()
+	cards.shuffle()
+
+	cards.print()
 }
